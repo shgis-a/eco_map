@@ -13,6 +13,7 @@ body {
 
 .navbar {
 	padding: 5px 20px;
+	height: 50px;
 }
 
 .content {
@@ -27,6 +28,7 @@ body {
 	min-width: 250px;
 	background-color: #D99E6A;
 	overflow-y: scroll;
+	height: calc(100vh - 50px)
 }
 
 #map {
@@ -56,6 +58,7 @@ body {
 }
 
 /* Emphasise disabled/missing list items */
-.list-group-item.disabled, .list-group-item:disabled {
+.list-group-item.disabled,
+.list-group-item:disabled {
 	color: #acbfd0;
 }
