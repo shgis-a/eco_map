@@ -24,7 +24,7 @@ function populateSidebar(data) {
 	// Empty list, then re-inject new list
 	$("#layers_A > .list-group").empty()
 	list_alpha.forEach(function (line) {
-		var alpha_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "_checkbox'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "_range'></li>"
+		var alpha_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
 		$("#layers_A > .list-group").append(alpha_html_string)
 
 		// Helper function to link layers to points
@@ -35,7 +35,7 @@ function populateSidebar(data) {
 	// Empty list, then re-inject new list
 	$("#layers_B > .list-group").empty()
 	list_bravo.forEach(function (line) {
-		var bravo_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "_checkbox'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "_range'></li>"
+		var bravo_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
 		$("#layers_B > .list-group").append(bravo_html_string)
 
 		// Helper function to link layers to points
@@ -46,21 +46,52 @@ function populateSidebar(data) {
 	// Empty list, then re-inject new list
 	$("#layers_C > .list-group").empty()
 	list_charlie.forEach(function (line) {
-		var charlie_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "_checkbox'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "_range'></li>"
+		var charlie_html_string = "<li class='list-group-item" + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
 		$("#layers_C > .list-group").append(charlie_html_string)
 
 		// Helper function to link layers to points
 		link(line["Code"])
 	})
+
+
+	// Checkbox function
+	$(":checkbox").change(function () {
+
+		var id = $(this).attr('id')
+
+		if (this.checked) {
+			map.setLayoutProperty(id, 'visibility', 'visible');
+		} else {
+			map.setLayoutProperty(id, 'visibility', 'none');
+		}
+	})
+
+	// Opacity function
+	$("[type=range]").change(function () {
+		value = $(this)[0].value
+		var id = $(this).attr('id')
+
+		map.setPaintProperty(
+			id,
+			'raster-opacity',
+			parseInt(value, 10) / 100
+		);
+	})
 }
 
+
 function link(code) {
+	// Helper function to grey out missing layers
 
 	var li_class_tag = "." + code + "_li"
 
 	// Verify the layer exists in Mapbox
 	var mapLayer = map.getLayer(code);
-	if (typeof mapLayer !== 'undefined') {} else {
+	if (typeof mapLayer !== 'undefined') {
+
+
+	} else {
+		// Grey out unfound layers
 		$(li_class_tag).addClass("disabled")
 	}
 }
@@ -76,14 +107,18 @@ var map = new mapboxgl.Map({
 
 $(document).ready(function () {
 
-	var data;
-	$.ajax({
-		type: "GET",
-		url: "./Ledger_of_maps.csv",
-		dataType: "text",
-		success: function (response) {
-			data = $.csv.toObjects(response)
-			populateSidebar(data)
-		}
-	})
+	map.on('styledata', function () {
+
+		var data;
+		$.ajax({
+			type: "GET",
+			url: "./Ledger_of_maps.csv",
+			dataType: "text",
+			success: function (response) {
+				data = $.csv.toObjects(response)
+				populateSidebar(data)
+			}
+		})
+	});
+
 });
