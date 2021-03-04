@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+
+.cont {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: stretch;
+	height: 100vh
+}
+
+header {
+	height: 70px;
+	background-color: #ffb4b4;
+}
+
+.content {
+	flex: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	background-color: #faf3ca;
+	width: 100vw;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+	height: 100vh;
+}
+
+.sidebar {
+	flex: 1;
+	min-width: 250px;
+	background-color: #ffc78e;
+	overflow-y: scroll;
+}
+
+#map {
+	flex: 3;
+}
+
+#menu {
+	position: relative;
+	z-index: 1;
+	top: 10px;
+	right: 10px;
+	border-radius: 3px;
+	width: 120px;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+}
