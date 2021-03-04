@@ -52,31 +52,6 @@ function populateSidebar(data) {
 		// Helper function to link layers to points
 		link(line["Code"])
 	})
-
-
-	// Checkbox function
-	$(":checkbox").change(function () {
-
-		var id = $(this).attr('id')
-
-		if (this.checked) {
-			map.setLayoutProperty(id, 'visibility', 'visible');
-		} else {
-			map.setLayoutProperty(id, 'visibility', 'none');
-		}
-	})
-
-	// Opacity function
-	$("[type=range]").change(function () {
-		value = $(this)[0].value
-		var id = $(this).attr('id')
-
-		map.setPaintProperty(
-			id,
-			'raster-opacity',
-			parseInt(value, 10) / 100
-		);
-	})
 }
 
 
@@ -89,6 +64,8 @@ function link(code) {
 	var mapLayer = map.getLayer(code);
 	if (typeof mapLayer !== 'undefined') {
 
+		// Default to hidden
+		map.setLayoutProperty(code, 'visibility', 'none');
 
 	} else {
 		// Grey out unfound layers
@@ -107,7 +84,7 @@ var map = new mapboxgl.Map({
 
 $(document).ready(function () {
 
-	map.on('styledata', function () {
+	map.on('load', function () {
 
 		var data;
 		$.ajax({
@@ -117,8 +94,30 @@ $(document).ready(function () {
 			success: function (response) {
 				data = $.csv.toObjects(response)
 				populateSidebar(data)
+
+				$(":checkbox").click(function () {
+					var id = $(this).attr('id')
+
+					if (this.checked) {
+						map.setLayoutProperty(id, 'visibility', 'visible');
+					} else {
+						map.setLayoutProperty(id, 'visibility', 'none');
+					}
+				})
+
+				// Opacity function
+				$("[type=range]").change(function () {
+					value = $(this)[0].value
+					var id = $(this).attr('id')
+
+					map.setPaintProperty(
+						id,
+						'raster-opacity',
+						parseInt(value, 10) / 100
+					);
+				})
 			}
 		})
-	});
+	})
 
 });
