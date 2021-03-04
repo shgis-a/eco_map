@@ -3,12 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Home - Temples of Sinkawang</title>
+	<title>Ecological maps of Singapore</title>
 	<meta name="description" content="">
 
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
 	<link rel="stylesheet" href="./css/normalize.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
@@ -22,16 +24,107 @@
 
 <body>
 	<div class="cont">
-		<header></header>
+		<!-- Image and text -->
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8C4332;">
+			<a class="navbar-brand navbar-left" href="#">
+				<img src="./img/Leaf_icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+				Singapore Ecological History Map
+			</a>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li class=" nav-item">
+					<a class="nav-link" href="#">Link 1</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link 2</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+			</ul>
+
+		</nav>
 		<div class="content">
 			<div class="sidebar">
-				<ul id="menu">
-				</ul>
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								A. Vegetation Cover Change
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="description">
+									<strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+
+								<div class="layers" id="layers_A">
+
+									<ul class="list-group">
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								B. Rainfall and Weather Extremes
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="description">
+									<strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+
+
+								<div class="layers" id="layers_B">
+
+									<ul class="list-group">
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								C. Mosquito Habitats
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								<div class="description">
+									<strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+
+								<div class="layers" id="layers_C">
+
+									<ul class="list-group">
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="layers_A">
+
+				</div>
+
+
 			</div>
 			<div id="map"></div>
 		</div>
 	</div>
 
 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="./js/jquery.csv.min.js"></script>
 	<script src="./js/main.js"></script>
 </body></html>
