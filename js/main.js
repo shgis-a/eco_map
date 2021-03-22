@@ -63,7 +63,6 @@ function link(code) {
 	// Verify the layer exists in Mapbox
 	var mapLayer = map.getLayer(code);
 	if (typeof mapLayer !== 'undefined') {
-
 		// Default to hidden
 		map.setLayoutProperty(code, 'visibility', 'none');
 
@@ -97,22 +96,25 @@ $(document).ready(function () {
 				data.forEach(function (entry) {
 					// Test to load tilesets
 
-					var code = entry.Code
-					var tileset_url = 'https://api.mapbox.com/v4/' + entry.tileset_ID + '/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'
+					// only add layers with tileset_ID
+					if (entry["tileset_ID"] != "") {
+						var code = entry.Code
+						var tileset_url = 'https://api.mapbox.com/v4/' + entry.tileset_ID + '/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'
 
-					map.addSource(code, {
-						'type': 'raster',
-						'tiles': [tileset_url],
-						'tileSize': 256
-					})
+						map.addSource(code, {
+							'type': 'raster',
+							'tiles': [tileset_url],
+							'tileSize': 256
+						})
 
-					map.addLayer({
-						'id': code,
-						'type': 'raster',
-						'source': code,
-						'minzoom': 0,
-						'maxzoom': 22
-					});
+						map.addLayer({
+							'id': code,
+							'type': 'raster',
+							'source': code,
+							'minzoom': 0,
+							'maxzoom': 22
+						});
+					}
 
 				})
 
