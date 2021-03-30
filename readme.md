@@ -2,7 +2,7 @@
 .Travel-1-hex { color: #0468BF; }
 .Travel-2-hex { color: #049DBF; }
 .Travel-3-hex { color: #3b592d; }
-.Travel-4-hex { color: #D99E6A; }
+.Travel-4-hex { color: #d99e6a; }
 .Travel-5-hex { color: #8C4332; }
 
 /* Color Theme Swatches in RGBA */
