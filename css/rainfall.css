@@ -1,0 +1,91 @@
+/**
+ * #ECD078
+ * #D95B43
+ * #C02942
+ * #542437
+ * #53777A
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: calc(100vw - (100vw - 100%));
+}
+
+.section {
+	width: 100%;
+}
+
+.sectionone {
+	height: 30vh;
+	background-color: #C02942;
+}
+
+.sectionone .title {
+	float: right;
+	padding-right: 30px;
+	background-color: #53777A;
+	text-align: right;
+	margin-top: 15vh;
+	width: 40vw;
+}
+
+.sectiontwo {
+	height: 1000px;
+}
+
+.sectiontwo .title {
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 50px;
+	background-color: #53777A;
+	display: inline-block;
+	padding: 5px 15px;
+}
+
+#s1_map {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: -99;
+}
+
+.s1_list {
+	width: 300px;
+	padding-bottom: 5vh;
+	bottom: 0;
+	position: fixed;
+}
+
+.sectiontwo .text {
+	padding-top: 400px;
+	padding-right: 75px;
+	float: right;
+	text-align: right;
+}
+
+.sectiontwo .text p {
+	padding-top: 40px;
+	font: 700 42px 'Philosopher', monospace;
+	-webkit-transition: color 0.2s, font-size 0.2s;
+	-moz-transition: color 0.2s, font-size 0.2s;
+	-o-transition: color 0.2s, font-size 0.2s;
+	transition: color 0.2s, font-size 0.2s;
+}
+
+.sectiontwo .text p.active {
+	font: 950 52px 'Philosopher', monospace;
+	color: red;
+}
