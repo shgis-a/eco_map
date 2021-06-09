@@ -17,11 +17,16 @@ h5 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .content {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	width: calc(100vw - (100vw - 100%));
+	pointer-events: none;
 }
 
 .section {
@@ -31,6 +36,7 @@ h5 {
 .sectionone {
 	height: 30vh;
 	background-color: #C02942;
+	position: relative;
 }
 
 .sectionone .title {
@@ -38,12 +44,15 @@ h5 {
 	padding-right: 30px;
 	background-color: #53777A;
 	text-align: right;
-	margin-top: 15vh;
+	bottom: 0;
+	right: 0;
 	width: 40vw;
+	position: absolute;
 }
 
 .sectiontwo {
-	height: 1000px;
+	height: 2500px;
+	pointer-events: none;
 }
 
 .sectiontwo .title {
@@ -59,7 +68,8 @@ h5 {
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
-	z-index: -99;
+	z-index: -1;
+	pointer-events: auto;
 }
 
 .s1_list {
@@ -77,7 +87,7 @@ h5 {
 }
 
 .sectiontwo .text p {
-	padding-top: 40px;
+	padding-top: 150px;
 	font: 700 42px 'Philosopher', monospace;
 	-webkit-transition: color 0.2s, font-size 0.2s;
 	-moz-transition: color 0.2s, font-size 0.2s;
@@ -88,4 +98,56 @@ h5 {
 .sectiontwo .text p.active {
 	font: 950 52px 'Philosopher', monospace;
 	color: red;
+}
+
+h5 {
+	font-size: 8px;
+}
+
+.mapboxgl-popup-content {
+	background-color: rgba(255, 255, 255, 0.9)
+}
+
+.text-bubble {
+	display: inline-block;
+	position: absolute;
+	margin-left: 300px;
+	padding: 15px;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+#s2f {
+	margin-top: 2000px;
+}
+
+.sectionthree .title {
+	margin-bottom: 500px;
+	margin-left: 20px;
+	padding: 15px;
+	max-width: 50vw;
+	pointer-events: none;
+	background-color: rgba(255, 255, 255, 0.9)
+}
+
+.sectionend {
+	height: 2000px;
+}
+
+.sectionfour {
+	padding: 50px 50px 50px 50px;
+	background-color: rgba(216, 157, 106, 1)
+}
+
+.sectionfour .title {
+	padding: 50px 0;
+}
+
+#s4title {
+	font-weight: 900;
+}
+
+.sectionend {
+	background-color: rgba(216, 157, 106, 1)
 }

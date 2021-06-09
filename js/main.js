@@ -87,7 +87,7 @@ $(document).ready(function () {
 		var data;
 		$.ajax({
 			type: "GET",
-			url: "./Ledger_of_maps.csv",
+			url: "./csv/Ledger_of_maps.csv",
 			dataType: "text",
 			success: function (response) {
 				data = $.csv.toObjects(response)
