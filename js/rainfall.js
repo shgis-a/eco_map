@@ -253,3 +253,9 @@ new ScrollMagic.Scene({
 	})
 	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
+
+var viewer = OpenSeadragon({
+	id: "openseadragon1",
+	prefixUrl: "/img/Openseadragon/",
+	tileSources: "./img/rainfall_log.dzi"
+});
