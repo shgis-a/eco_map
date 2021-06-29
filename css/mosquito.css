@@ -47,7 +47,7 @@ h4 {
 	background-color: #D99E6A;
 	overflow-y: scroll;
 	height: calc(100vh - 50px);
-	padding: 200px 25px 1000px 25px;
+	padding: 50vh 25px 100vh 25px;
 }
 
 #map {
