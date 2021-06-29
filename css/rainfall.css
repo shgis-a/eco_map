@@ -8,13 +8,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-p,
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5 {
-	font-family: 'Open Sans', sans-serif;
+h5,
+p.title {
+	font-family: 'Philosopher', monospace;
 }
 
 .bold {

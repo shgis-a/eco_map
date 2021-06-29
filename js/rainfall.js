@@ -113,7 +113,7 @@ new ScrollMagic.Scene({
 var popup1 = new mapboxgl.Popup({
 	closeButton: true,
 	classname: "popup1 popup",
-	maxWidth: "700px",
+	maxWidth: "400px",
 	offset: 50
 }).setHTML(
 	'<h4 class="bold">Singapore’s First Observatory 1841-45</h4> <h5>Location: 1.310472, 103.868306</h5> <p>In the late 1830s, the British Association for the Advancement of Science and the Royal Society in London embarked on a mission to collect simultaneous magnetic and meteorological observations across the Empire and colonies. One of the chosen sites was Singapore. The observatory here was set up and run by Lieutenant Elliot of the Madras Engineers in 1841. It was described by contemporaries as small but well designed for making weather observations. Open windows maximised air flow and direct sunlight was prevented from reaching the meteorological instruments. The walls were 18 inches thick and painted white in order that they should reflect, rather than retain heat (Elliot, 1849). For four years, Elliot and his small team – comprising of locally hired assistants and observers – worked on a shoe-string budget making hourly magnetic, temperature and pressure observations from this building. Elliot himself lived on site and it was largely down to his tireless efforts to record and publish the observations, that we still have access to this incredible resource today, now digitised., the observatory was closed in 1845, due to the withdrawal of finances for this aspect of the project in Singapore; the measuring instruments sent to India for re-use at Bombay. The building was left empty for several years.</p>'
@@ -164,7 +164,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
 		triggerElement: "#s2e"
 	}).on("enter", function (e) {
-		map.fitBounds([[103.845, 1.301], [103.875, 1.314]]);
+		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
 		$("#s2e").toggleClass("active")
 		marker1.togglePopup()
 		marker2.togglePopup()
@@ -200,7 +200,7 @@ new ScrollMagic.Scene({
 		})
 	}).on("leave", function (e) {
 		$("#ckol9hfdg34hr18plw28zxjeb").click();
-		map.fitBounds([[103.845, 1.301], [103.875, 1.314]]);
+		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
 	})
 	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
@@ -246,7 +246,7 @@ new ScrollMagic.Scene({
 			}
 		});
 	}).on("leave", function (e) {
-		map.fitBounds([[103.845, 1.301], [103.875, 1.314]]);
+		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
 		$("#ckoo9el4i0pun17pidps5h38k").click();
 		map.removeLayer("meteor-layer-circle")
 		map.removeLayer("meteor-layer-text")

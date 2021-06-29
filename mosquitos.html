@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Ecological maps of Singapore</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+	<link rel="stylesheet" href="./css/normalize.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css" rel="stylesheet" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js" integrity="sha512-mq6TSOBEH8eoYFBvyDQOQf63xgTeAk7ps+MHGLWZ6Byz0BqQzrP+3GIgYL+KvLaWgpL8XgDVbIRYQeLa3Vqu6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="./css/mosquito.css">
+
+</head>
+
+<body>
+	<div class="cont">
+		<!-- Image and text -->
+		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8C4332;">
+			<a class="navbar-brand navbar-left" href="./index.html">
+				<img src="./img/Leaf_icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+				Singapore Ecological History Map
+			</a>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class=" nav-item">
+						<a class="nav-link" href="./rainfall_and_weather_extremes.html">Rainfall</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link 2</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./about.html">About</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<div class="content">
+			<div class="text">
+				<h1>Land Use Changes, Malaria Outbreaks, and Eradication Campaigns during the 1960s-1980s.</h1>
+				<h4>Tyrone Tan Ren Hao (NUS), Yeo Huiqing (NUS)</h4>
+
+				<h2 id="s1">Pulau Tekong showing location of malaria cases and Anopheles maculatus breeding, 1969 </h2>
+				<p>During the 1960s, Singapore engaged in several malaria eradication campaigns. Between 1965 to 1969, around 200 to 400 cases of malaria were reported in Singapore (population size: about 2 million people) every year. While more than 90% of the cases were imported from neighbouring countries (Malaysia and Indonesia), the majority of the local cases occurred in the offshore islands and malaria had been commonly reported in Pulau Tekong. </p>
+				<p>At that time, the population on Pulau Tekong was around 6,000, comprising of residents living in kampungs (labelled with Kg on the map), who were engaged in the plantation economy, and members of the Singapore Army. The 1969 outbreak recorded a total of 25 cases, of which 14 of these cases were located within 500 metres of sources of larval breeding. Vector surveys carried out revealed that the mosquito vector (or malaria parasite carrier) responsible for the outbreaks was Anopheles maculatus, a mosquito species which typically utilises habitats from river sources including seepage drains, earth wells and drains. These types of habitats are often found near houses, thus facilitating malaria transmission.</p>
+				<p id="s2">Although existing vector control measures, such as oiling, had been carried out in Pulau Tekong prior to the outbreak, they were mostly restricted to the western parts of the island (shaded region on the map). The 1969 outbreak spurred additional control measures such as residual spraying with DDT and oiling in more parts of the island (indicated with numbers). The transmission of malaria in Pulau Tekong was also in part due to its close proximity to Malaysia, where malaria was endemic (Huehne et al 1967). There was a constant migratory movement of the local farmers’ relatives from across the Causeway, who were potential carriers of the malaria parasite. There is also a possibility that parasite-infected mosquitoes flew or were carried by the wind from Malaysia since Pulau Tekong is within the flight range of Anopheles maculatus (approximately 2.5km).</p>
+				<div class="citation">
+					<p>References</p>
+					<ul>
+						<li>Chan KL, Chew PK and Koh TS (1971) Malarial outbreak at Pulau Tekong in Singapore. Singapore Medical Journal, 12(5), 276-283.</li>
+						<li>Huehne WH, Mohamed DA and Ling DS (1967). Malaria, a primary health problem in rural West Malaysia. Medical Journal of Malaysia, 22, 60.</li>
+					</ul>
+				</div>
+				<h2 id="s3">Geographical distribution of introduced malaria cases in Singapore, 1976 - 1982</h2>
+				<p>While the number of local malaria cases continued to decline from 1976 to 1982, eight of the 10 malaria deaths were imported infections. There was an increasing number of imported cases from the Iindian subcontinent from 36 cases in 1976 to 151 cases in 1982 alongside the increased recruitment of labourers from that region. On the other hand, the number of imported cases from Malaysia has decreased markedly with the successful implementation of the malaria eradication programme in the state of Johor as part of the international cooperation such as the annual Malaysia-Singapore Border Health Conference and the WHO-sponsored bi-annual Indonesia-Malaysia-Singapore Malaria (Border) Meeting. These imported cases hold significant epidemiological importance as they had been responsible for both sporadic transmission and localised outbreaks. This is due to the tendency for imported cases to develop fever within 6 weeks after entry into Singapore and relapsing malaria from Plasmodium vivax (one of the main malaria parasites) infections could be expected up to 30 weeks even after leaving malaria endemic areas.</p>
+				<p>The occurrence of local outbreaks however still indicates Singapore’s vulnerability to an influx of asymptomatic imported cases. Most of the local transmissions occurred in the east coastal regions and the offshore islands, focused around areas of development and ports with high activity in Singapore. Several measures were taken to prevent such re-introduction of malaria to Singapore such as promoting usage of chemoprophylaxis (chemoprevention) for national servicemen, workers engaged in developmental projects, and even travellers who are going to visit malarious areas. </p>
+				<div class="citation">
+					<p>References</p>
+					<ul>
+						<li>Goh KT (1983) Eradication of malaria from Singapore. Singapore Medical Journal, 23(5), 255-268.</li>
+					</ul>
+				</div>
+				<h2 id="s4">Geographical distribution of malaria vectors in Singapore, 1976 - 1982</h2>
+				<p>The geographical distribution of vector species is closely tied to their habitats, as they require specific ecological niches for breeding. As such, with the rapid land development in some areas, suitable habitats became available for the propagation of a particular vector species, Anopheles sundaicus. This species is now known as Anopheles epiroticus after research revealed that it was part of a species complex with many morphologically similar species (Linton et al. 2005).</p>
+				<p>While An. epiroticus (sundaicus) is known to be a less efficient vector than Anopheles maculatus, it breeds in brackish water (where freshwater and seawater meet) and thrives in man-made habitats such as those created by the construction of dams across tidal rivers, ongoing land reclamation areas, and even fish ponds. This would lead to local outbreaks corresponding to the areas where land was undergoing major development works (see map).</p>
+				<p>In addition, the respective vector species causing outbreaks were not always identified, as they mightnot be collected during the surveys. Apart from the difficulties of differentiating species as outwardly they look similar, vector dominance can also change within the complex ecosystem. For example, while Pulau Tekong reported Anopheles maculatus as the malaria vector in the 1960s, Goh K.T. (1983) only reviewed cases from the 1970s onwards and there seems to be a shift in vector dominance on Pulau Tekong.</p>
+				<div class="citation">
+					<p>References</p>
+					<ul>
+						<li>Goh KT (1983) Eradication of malaria from Singapore. Singapore Medical Journal, 23(5), 255-268.</li>
+						<li>Linton YM, Dusfour I, Howard TM, Manh ND, Dinh TH, Sochanta T, ... & Harbach RE (2005). Anopheles (Cellia) epiroticus (Diptera: Culicidae), a new malaria vector species in the Southeast Asian Sundaicus Complex. Bulletin of entomological research, 95(4), 329-339.</li>
+					</ul>
+				</div>
+				<h2 id="s5">Geographical distribution of cases in relation to tidal influence and adult harbourages at Whampoa-Kallang area, 1974-1975</h2>
+				<h3>Whampoa-Kallang outbreak</h3>
+				<p>From December 1974 to March 1975, Singapore experienced a large malaria outbreak of 82 cases in the highly urbanized area of Whampoa-Kallang. In 1963, Kallang basin came under rapid development and by 1976, 11 HDB blocks were constructed and occupied by 11,700 residents. The map provides a case study of how land reclamation resulted in the unintended emergence of An. epiroticus (sundaicus) breeding grounds. Before it was reclaimed and developed into a residential area, the Kallang Basin was a swampy area with some fish and prawn culture ponds. Moreover, the area is low-lying and subjected to tidal influence from the sea. Tidal floods meeting sweet water spots on the reclaimed land therefore created brackish water breeding grounds close to this new, densely populated area. The first malaria patient, a 60 year old housewife who had not been to any malaria receptive areas, was notified on 26 December 1974. Subsequently, 4 more fever cases were confirmed to be due to Plasmodium vivax. Within a week, 8 more malaria cases were identified in close proximity to the first case, leading to a declaration of an outbreak on 2 January 1975. Within a month, there were a total of 30 cases and by 26 February 1975, the number had risen to a total of 71 cases.</p>
+				<p>These were the first cases of chloroquine (the usual medication)-resistant malaria strains that led to a comprehensive review of the malaria control activities in Singapore. More aggressive steps came as a result of the review to prevent local malaria transmission. As the existing anti-malaria drainage system at the time became obsolete with Singapore’s rapid industrialisation, the oiling programme was extended to other uncontrolled areas. A total of 1,366 premises were sprayed over 6 weeks. More than ⅔ of Singapore was covered by a weekly oiling cycle while vulnerable areas were oiled on a 3-day cycle. Vegetation along the drainage reserve and undulating plots of land next to the HDB flats were cleared to eliminate the main vector mosquito’s habitat.</p>
+				<p>An approximate $2.25 million was spent annually for this elaborate control strategy to eliminate the focus of infection as soon as transmission was suspected. These include active and passive case detection and mass blood surveys which continued until the reservoir of infection had been detected and transmission had ceased; intensified larvicidal measures; and aerial and residual spraying with insecticides to kill adult mosquitoes.</p>
+				<div class="citation">
+					<p>References</p>
+					<ul>
+						<li>Chan KL, Goh KT and Koh TS (1976) The Whampoa-Kallang malaria outbreak, 1974-5. Singapore Medical Journal, 17(3), 124-132.</li>
+						<li>Goh, 1983. Eradication of Malaria from Singapore</li>
+					</ul>
+				</div>
+				<h2 id="s6">Malaria outbreaks at Changi and East Coast/Chai Ghee, 1976</h2>
+				<h3>Changi outbreak</h3>
+				<p>Land reclamation and the unintended creation of An. epiroticus (sundaicus) breeding grounds in brackish water spots also caused the Changi area malaria outbreak. On 6 September 1976, a 19-year national serviceman from Changi Air Base was found to have malaria. 3 days later, another 6 malaria cases from Changi were reported to be infected from various localities in Changi. The locations consisted of Changi Air Base, Selarang Barracks, Changi airport project (with residences at Wyton Road), and Telok Paku Drug Rehabilitation Centre. This led to a recognition of the outbreak on 10 September 1976. Adulticidal vector control measures, thus aimed at adult mosquitoes, were immediately implemented between 10 and 18 September 1976. More than 2,000 premises close to the cases were either swing-fogged or residual-sprayed.</p>
+				<p>In addition, Anopheles epiroticus (sundaicus) breeding was detected at Kampong Loyang on 6 August 1976, approximately 2.4 km from the first case at Wyton Road, but no adult vectors were trapped. Blood films were taken from all the contract workers at Changi and only one asymptomatic worker was positive for Plasmodium falciparum (another major malaria parasite).</p>
+				<h3 id="s7">East coast/Chai Ghee</h3>
+				<p>AThree locally contracted malaria cases at Chai Chee and Kee Sun Road were reported in August with onset of fever between 19 and 25 August. This was followed by another 3 cases from Woo Mun Chew Road and Telok Kurau with varying dates of onsets from 1 August to 5 September, reported on 16 September. This resulted, on 17 September 1976, in a blood film being taken from asymptomatic family members of one identified case, which turned out to be positive for Plasmodium vivax. All vivax cases were found to be situated in close proximity to each other. In view of this, another case at Still Road with onset on 2 August 1976 was re-classified as infected in the area. An outbreak was identified on 18 September 1976 and intensified vector control measures were organised and immediately implemented between 18 and 23 September 1976. More than 4,600 premises were simultaneously wing-fogged and residual-sprayed.</p>
+				<p>Four previous malaria cases from this area were suspected to be the original cause of the infection. They were from Jalan Eunos, Marine Drive, Geylang Serai and Chai Chee Estate and were isolated within 3 to 14 days upon onset of symptoms.</p>
+				<div class="citation">
+					<p>References</p>
+					<ul>
+						<li>Goh, 1983. Eradication of Malaria from Singapore </li>
+					</ul>
+				</div>
+				<h2 id="s8">Malaria Outbreak at Siak Kuan Road, Oct 1980</h2>
+				<h3>Siak Road outbreak</h3>
+				<p>The final example illustrates a minor outbreak, this time not causing an epidemic but again caused by land reclamation work that unintendedly created brackish water mosquito breeding grounds in combination with what seems to have been a malaria patient who unintentionally imported the parasite from abroad. This minor outbreak of 5 malaria cases occurred on Siak Kuan Road in October 1980. The malaria cases were again caused by Plasmodium vivax. The patients included a 14 year old student, a 26 year old factory worker, a 28 year old shop assistant, and 2 housewives aged 30 and 43. The onset of symptoms was between 5th to 18th October 1980 and the last two cases were picked up during a mass blood survey. The first patient, or Patient Zero, was likely to be an imported vivax case who developed fever symptoms on 1st August 1980. The patient stayed within the vicinity of the other 5 patients. The vector for P. vivax, Anopheles epiroticus (sundaicus), was detected to be breeding between the accommodations of Patient Zero and the other 5 patients. However, when some adult mosquitoes were trapped and dissected, no infectious forms of P. vivax were detected.</p>
+				<p id="s9">Altogether, this last example demonstrated that while epidemic control measures implemented successfully eradicated transmission, such localised outbreaks were still common due to the suitable conditions for mosquito propagation unintentionally created by land development and the related emergence of new breeding grounds.</p>
+				<div class="citation end">
+					<p>References</p>
+					<ul>
+						<li>Goh, 1983. Eradication of Malaria from Singapore</li>
+					</ul>
+				</div>
+			</div>
+			<div id="map">
+				<div class="images"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="./js/jquery.csv.min.js"></script>
+	<script src="./js/mosquito.js"></script>
+</body></html>
