@@ -218,7 +218,7 @@ new ScrollMagic.Scene({
 		map.addSource('meteor-source', {
 			type: 'geojson',
 			// Use a URL for the value for the `data` property.
-			data: './geojson/meteor_stations.geojson'
+			data: './geojson/meteor_stations.json'
 		});
 
 		map.loadImage('pointer', "./Map_marker.svg")
@@ -256,6 +256,9 @@ new ScrollMagic.Scene({
 
 var viewer = OpenSeadragon({
 	id: "openseadragon1",
-	prefixUrl: "/img/Openseadragon/",
-	tileSources: "./img/rainfall_log.dzi"
+	prefixUrl: "./img/Openseadragon/",
+	tileSources: {
+		type: "image",
+		url: "./img/rainfall_log.png"
+	}
 });
