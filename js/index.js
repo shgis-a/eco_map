@@ -70,6 +70,9 @@ function populateSidebar(data) {
 	populateSection("#layers_A", list_alpha);
 	populateSection("#layers_B", list_bravo);
 	populateSection("#layers_C", list_charlie);
+
+	// Remove loading animation
+	$(".loader-cont").fadeOut()
 }
 
 
