@@ -22,6 +22,10 @@ p.title {
 	font-family: 'Philosopher', monospace;
 }
 
+h3 {
+	font-size: 18px;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -156,15 +160,31 @@ h5 {
 
 #openseadragon1 {
 	width: 80vw;
-	height: 80vw;
+	height: 70vw;
+	max-width: 1000px;
 	margin: 0 auto;
 	border-style: solid;
 	margin-bottom: 150px;
 }
 
-.section img {
+.figure {
 	width: 50vw;
+	max-width: 100%;
 	display: block;
-	margin: 15px auto 30px auto;
-	width: 40%;
+	margin: 15px auto 5px auto;
+}
+
+.sectionfour p {
+	font-size: 14px;
+}
+
+.sectionfour > div {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 50px;
 }

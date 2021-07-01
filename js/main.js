@@ -1,4 +1,27 @@
 function populateSidebar(data) {
+
+	function populateSection(element, line) {
+
+		var directory = element + " > .list-group"
+
+		// Empty list, then re-inject new list
+		$(directory).empty()
+		line.forEach(function (line) {
+
+			if (line.Year != "") {
+				year = " (" + line.Year + ")"
+			} else {
+				year = ""
+			}
+
+			var html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ": " + line["Map Name"] + year + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
+			$(directory).append(html_string)
+
+			// Helper function to link layers to points
+			link(line["Code"])
+		})
+	}
+
 	// As name implies
 
 	// Instantiate buffer lists
@@ -20,38 +43,9 @@ function populateSidebar(data) {
 
 	// Injecting lists into the right section
 
-	// Sorting out alpha
-	// Empty list, then re-inject new list
-	$("#layers_A > .list-group").empty()
-	list_alpha.forEach(function (line) {
-		var alpha_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
-		$("#layers_A > .list-group").append(alpha_html_string)
-
-		// Helper function to link layers to points
-		link(line["Code"])
-	})
-
-	// Sorting out bravo
-	// Empty list, then re-inject new list
-	$("#layers_B > .list-group").empty()
-	list_bravo.forEach(function (line) {
-		var bravo_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
-		$("#layers_B > .list-group").append(bravo_html_string)
-
-		// Helper function to link layers to points
-		link(line["Code"])
-	})
-
-	// Sorting out charlie
-	// Empty list, then re-inject new list
-	$("#layers_C > .list-group").empty()
-	list_charlie.forEach(function (line) {
-		var charlie_html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ":" + line["Map Name"] + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
-		$("#layers_C > .list-group").append(charlie_html_string)
-
-		// Helper function to link layers to points
-		link(line["Code"])
-	})
+	populateSection("#layers_A", list_alpha);
+	populateSection("#layers_B", list_bravo);
+	populateSection("#layers_C", list_charlie);
 }
 
 
@@ -97,7 +91,7 @@ $(document).ready(function () {
 					// Test to load tilesets
 
 					// only add layers with tileset_ID
-					if (entry["tileset_ID"] != "") {
+					if (entry["Source"] == "mapbox") {
 						var code = entry.Code
 						var tileset_url = 'https://api.mapbox.com/v4/' + entry.tileset_ID + '/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'
 
@@ -114,8 +108,50 @@ $(document).ready(function () {
 							'minzoom': 0,
 							'maxzoom': 22
 						});
-					}
+					} else if (entry["Source"] == "libmap") {
+						var code = entry.Code
+						var tileset_url = entry["url"]
 
+						map.addSource(code, {
+							'type': 'raster',
+							'tiles': [tileset_url],
+							'tileSize': 256
+						})
+
+						map.addLayer({
+							'id': code,
+							'type': 'raster',
+							'source': code,
+							'minzoom': 0,
+							'maxzoom': 22
+						});
+					} else if (entry["Source"] == "geojson-points") {
+						var code = entry.Code
+						var tileset_url = entry["url"]
+
+						map.addSource('meteor-source', {
+							type: 'geojson',
+							// Use a URL for the value for the `data` property.
+							data: tileset_url
+						});
+
+						map.addLayer({
+							'id': code,
+							'type': 'symbol',
+							'source': 'meteor-source',
+							'layout': {
+								'text-field': ['get', 'id'],
+								'text-variable-anchor': ['center'],
+								'text-justify': 'auto'
+							},
+							'paint': {
+								"text-color": "#dddddd",
+								"text-halo-color": "#0000ff",
+								"text-halo-width": 1,
+								"text-halo-blur": 1
+							}
+						});
+					}
 				})
 
 				populateSidebar(data)

@@ -164,7 +164,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
 		triggerElement: "#s2e"
 	}).on("enter", function (e) {
-		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
+		map.fitBounds([[103.845, 1.302], [103.875, 1.31]])
 		$("#s2e").toggleClass("active")
 		marker1.togglePopup()
 		marker2.togglePopup()
@@ -200,7 +200,7 @@ new ScrollMagic.Scene({
 		})
 	}).on("leave", function (e) {
 		$("#ckol9hfdg34hr18plw28zxjeb").click();
-		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
+		map.fitBounds([[103.845, 1.302], [103.875, 1.31]])
 	})
 	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
@@ -246,7 +246,7 @@ new ScrollMagic.Scene({
 			}
 		});
 	}).on("leave", function (e) {
-		map.fitBounds([[103.845, 1.301], [103.875, 1.305]]);
+		map.fitBounds([[103.845, 1.302], [103.875, 1.31]])
 		$("#ckoo9el4i0pun17pidps5h38k").click();
 		map.removeLayer("meteor-layer-circle")
 		map.removeLayer("meteor-layer-text")

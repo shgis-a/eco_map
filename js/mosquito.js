@@ -23,7 +23,7 @@ $(document).ready(function () {
 
 		map.addSource("s3", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.bwmgaxfg/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.4ki72mgp/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
 			'tileSize': 256
 		})
 
@@ -67,6 +67,14 @@ $(document).ready(function () {
 			'maxzoom': 22
 		})
 	})
+
+	new ScrollMagic.Scene({})
+		.setPin("#map")
+		.addIndicators({
+			name: "map_cont"
+		}) // add indicators (requires plugin)
+		.addTo(controller);
+
 
 	new ScrollMagic.Scene({
 			triggerElement: "#s1",
