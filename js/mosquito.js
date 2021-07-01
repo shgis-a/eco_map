@@ -75,7 +75,6 @@ $(document).ready(function () {
 		}) // add indicators (requires plugin)
 		.addTo(controller);
 
-
 	new ScrollMagic.Scene({
 			triggerElement: "#s1",
 			triggerHook: 0.3
@@ -295,7 +294,6 @@ $(document).ready(function () {
 			name: "s8"
 		}) // add indicators (requires plugin)
 		.addTo(controller)
-
 
 	new ScrollMagic.Scene({
 			triggerElement: "#s9",

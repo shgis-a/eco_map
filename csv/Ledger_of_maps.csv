@@ -30,8 +30,8 @@
 2006,Geological Maps of Singapore Sheet 4: Jurong,https://drive.google.com/file/d/1aprgVKG1bthcf7SJcJIPxuiuJpAhYq1Z/view?usp=sharing,A,A29,,mapbox,shgis-kennethdean.cf6n7l6p,,
 2006,Geological Maps of Singapore Sheet 5: Bedok,https://drive.google.com/file/d/1x0O1Kzf-oP5tEo2rbtgr--ibEiqNB_8q/view?usp=sharing,A,A30,,mapbox,shgis-kennethdean.cj080y9h,,
 2006,Geological Maps of Singapore Sheet 6: Southern Islands,https://drive.google.com/file/d/10Ygw4aV6i7vLBE8BsS3IGmk2cFYX5wL1/view?usp=sharing,A,A31,,mapbox,shgis-kennethdean.2gt9hzl9,,
-2006,Geological Maps of Singapore Sheet 7: Cross Sections,https://drive.google.com/file/d/15xpBFpUwsb2FhwRj6dvWDao0ji-yrwsi/view?usp=sharing,A,A32,,mapbox,,,
-2008,Geological Maps of Singapore Sheet 8: Locality Map,https://drive.google.com/file/d/1PS3w0dkZWTOUeJ-RtxguArVZg_nGDDes/view?usp=sharing,A,A33,,mapbox,,,
+2006,Geological Maps of Singapore Sheet 7: Cross Sections,https://drive.google.com/file/d/15xpBFpUwsb2FhwRj6dvWDao0ji-yrwsi/view?usp=sharing,A,A32,,image,,,./img/A32.png
+2008,Geological Maps of Singapore Sheet 8: Locality Map,https://drive.google.com/file/d/1PS3w0dkZWTOUeJ-RtxguArVZg_nGDDes/view?usp=sharing,A,A33,,image,,,./img/A33.png
 1860,1860 maps,,B,B39,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1860/MapServer/tile/{z}/{y}/{x}/
 1860,Meteorological Station,,B,B40,,geojson-points,,,./geojson/meteor_stations.json
 1873,D2016_000249 OR SP006451 (TBC),https://drive.google.com/file/d/19WhxBZZaEtD7QUvuU0GoifHrxxSSYMpo/view?pli=1,B,B01,,mapbox,shgis-kennethdean.B01,,
