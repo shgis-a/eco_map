@@ -122,15 +122,13 @@ $(document).ready(function () {
 
 
 					var code = entry.Code
-					var tileset_url = entry["url"]
 
 					// only add layers with tileset_ID
 					if (entry["Source"] == "mapbox") {
-						var tileset_url = 'https://api.mapbox.com/v4/' + entry.tileset_ID + '/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'
 
 						map.addSource(code, {
 							'type': 'raster',
-							'tiles': [tileset_url],
+							'tiles': entry.tileset_ID,
 							'tileSize': 256
 						})
 
@@ -142,6 +140,8 @@ $(document).ready(function () {
 							'maxzoom': 22
 						});
 					} else if (entry["Source"] == "libmap") {
+
+						var tileset_url = entry["url"]
 
 						map.addSource(code, {
 							'type': 'raster',

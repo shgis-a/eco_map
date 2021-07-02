@@ -17,37 +17,37 @@ $(document).ready(function () {
 
 		map.addSource("s1", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.0k7zbenw/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.0k7zbenw',
 			'tileSize': 256
 		})
 
 		map.addSource("s3", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.4ki72mgp/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.4ki72mgp',
 			'tileSize': 256
 		})
 
 		map.addSource("s4", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.9muiu5o5/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.9muiu5o5',
 			'tileSize': 256
 		})
 
 		map.addSource("s5", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.dg3mxn2w/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.dg3mxn2w',
 			'tileSize': 256
 		})
 
 		map.addSource("s6", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.8u9jidi2/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.8u9jidi2',
 			'tileSize': 256
 		})
 
 		map.addSource("s8", {
 			'type': 'raster',
-			'tiles': ['https://api.mapbox.com/v4/shgis-kennethdean.2fkoni01/{z}/{x}/{y}@2x.jpg90?access_token=pk.eyJ1Ijoic2hnaXMta2VubmV0aGRlYW4iLCJhIjoiY2tqMTBpOHl0MDI0YzJ5c2IzOHMyM2V4eCJ9.DFNMWEGdVJkBh9mS2OkrbA'],
+			'tiles': 'shgis-kennethdean.2fkoni01',
 			'tileSize': 256
 		})
 
