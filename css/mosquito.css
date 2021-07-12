@@ -80,11 +80,26 @@
 	max-height: 40%;
 	max-width: 80%;
 	border: 5px solid black;
+	margin: 50px;
 }
 
 figcaption {
 	background-color: black;
 	color: white;
 	font-family: 16px 'Open Sans', sans-serif;
-	padding: 20px;
+	padding: 15px;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: none;
+	justify-content: space-evenly;
+}
+
+.gallery img {
+	border: 5px solid black;
+	margin: 20px;
+	width: 30%;
 }
