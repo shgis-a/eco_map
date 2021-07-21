@@ -172,6 +172,8 @@ new ScrollMagic.Scene({
 	.on("leave", function (e) {
 		$("#s2e").toggleClass("active")
 		map.fitBounds([[103.8, 1.25], [103.89, 1.33]]);
+		marker1.togglePopup()
+		marker2.togglePopup()
 	})
 	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
@@ -250,6 +252,9 @@ new ScrollMagic.Scene({
 		$("#ckoo9el4i0pun17pidps5h38k").click();
 		map.removeLayer("meteor-layer-circle")
 		map.removeLayer("meteor-layer-text")
+
+		marker1.addTo(map)
+		marker2.addTo(map)
 	})
 	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
@@ -260,5 +265,14 @@ var viewer = OpenSeadragon({
 	tileSources: {
 		type: "image",
 		url: "./img/rainfall_log.png"
+	}
+});
+
+var viewer = OpenSeadragon({
+	id: "openseadragon2",
+	prefixUrl: "./img/Openseadragon/",
+	tileSources: {
+		type: "image",
+		url: "./img/1912 February Rainfall.png"
 	}
 });

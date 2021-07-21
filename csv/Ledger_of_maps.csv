@@ -1,65 +1,76 @@
-﻿Year,Map Name,web address,Category,Code,status,Source,tileset_ID,comments,url
-1885,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1MckdOkGxhRzlzjL_HX53vfazjeGHbU4w/view?usp=sharing,A,A01,,mapbox,shgis-kennethdean.5cdw1m90,,
-1898,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1NMaKHVhQ2lHHwtmQOVf2tmB3Gh0AndXC/view?usp=sharing,A,A02,,mapbox,shgis-kennethdean.1fqv8vl6,,
-1911,Map of The Island of Singapore And Its Dependencies ,http://libmaps.nus.edu.sg/,A,A03,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1911/MapServer/tile/{z}/{y}/{x}/
-1924,A04-A19 Merged,,A,A04-MERGED,,mapbox,shgis-kennethdean.A04Merged,,
-1927,Singapore,https://drive.google.com/file/d/1pezcqWBZSsvmc2nyKRilasSA_6YaQglx/view?usp=sharing,A,A20,,mapbox,shgis-kennethdean.A20,,
-1947,Malaya - Singapore and Johore Bahru,https://drive.google.com/file/d/1UJGEd1Qp0_MYs9VktnuGG7v59FbAyZyA/view?usp=sharing,A,A21,,mapbox,shgis-kennethdean.6wv50fjv,,
-1975,Hydrogeologic Map of the Islands of Singapore,https://drive.google.com/file/d/1dXFOzT7FqW6BwW-lFdX8r-ymuMG8i_p4/view?usp=sharing,A,A23,,mapbox,shgis-kennethdean.A23,Geolocated but not yet uploaded,
-1977,Soil Map of Republic of Singapore,https://drive.google.com/file/d/1FCRVe4v7nDXIzMfyPcbG_qx_ADb7by32/view?usp=sharing,A,A24,,mapbox,shgis-kennethdean.05bdd9c2,,
-2006,A26-A31 Merged,,A,A26-Merged,,mapbox,shgis-kennethdean.A26-merged,,
-2006,Geological Maps of Singapore Sheet 1: Lim Chu Kang,https://drive.google.com/file/d/1zgfM3P76E0GAIEdIJHkR892SOQUwgu5B/view?usp=sharing,A,A26,,mapbox,shgis-kennethdean.7e853aa0,,
-2006,Geological Maps of Singapore Sheet 2: Tampines,https://drive.google.com/file/d/1dmscvSB6I3sIXipB6yTdcYEB3BN4nVs5/view?usp=sharing,A,A27,,mapbox,shgis-kennethdean.5amyuaqf,,
-2006,Geological Maps of Singapore Sheet 3: Pulau Tekong,https://drive.google.com/file/d/1wFeRDioh4O0aFbmMuWIXNztYkKLRKmN2/view?usp=sharing,A,A28,,mapbox,shgis-kennethdean.53p5f8wg,,
-2006,Geological Maps of Singapore Sheet 4: Jurong,https://drive.google.com/file/d/1aprgVKG1bthcf7SJcJIPxuiuJpAhYq1Z/view?usp=sharing,A,A29,,mapbox,shgis-kennethdean.cf6n7l6p,,
-2006,Geological Maps of Singapore Sheet 5: Bedok,https://drive.google.com/file/d/1x0O1Kzf-oP5tEo2rbtgr--ibEiqNB_8q/view?usp=sharing,A,A30,,mapbox,shgis-kennethdean.cj080y9h,,
-2006,Geological Maps of Singapore Sheet 6: Southern Islands,https://drive.google.com/file/d/10Ygw4aV6i7vLBE8BsS3IGmk2cFYX5wL1/view?usp=sharing,A,A31,,mapbox,shgis-kennethdean.2gt9hzl9,,
-2006,Geological Maps of Singapore Sheet 7: Cross Sections,https://drive.google.com/file/d/15xpBFpUwsb2FhwRj6dvWDao0ji-yrwsi/view?usp=sharing,A,A32,,image,,,./img/A32.png
-2008,Geological Maps of Singapore Sheet 8: Locality Map,https://drive.google.com/file/d/1PS3w0dkZWTOUeJ-RtxguArVZg_nGDDes/view?usp=sharing,A,A33,,image,,,./img/A33.png
-1860,1860 maps,,B,B39,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1860/MapServer/tile/{z}/{y}/{x}/
-1860,Meteorological Station,,B,B40,,geojson-points,,,./geojson/meteor_stations.json
-1873,1873 Map,https://drive.google.com/file/d/19WhxBZZaEtD7QUvuU0GoifHrxxSSYMpo/view?pli=1,B,B01,,mapbox,shgis-kennethdean.B01,,
-1877,January Rainfall,https://drive.google.com/file/d/1q9HClx7TG-pd1QLW2kMRgC6fYP8NsaPg/view?usp=sharing,B,B02,,mapbox,shgis-kennethdean.cx05ewjr,,
-1877,February Rainfall,https://drive.google.com/file/d/1M5DWMHwwlYZREjj487eHYYn7XzKWAqsF/view?usp=sharing,B,B03,,mapbox,shgis-kennethdean.0vgh85fu,,
-1877,March Rainfall,https://drive.google.com/file/d/1ZIL356xgyR0x1HrhCEbFHZza1zizTE4s/view?usp=sharing,B,B04,,mapbox,shgis-kennethdean.5o0uk263,,
-1877,April Rainfall,https://drive.google.com/file/d/1eHMoNhk3G46dXDGi1VylsUT4TQEoJKHO/view?usp=sharing,B,B05,,mapbox,shgis-kennethdean.8505p6xy,,
-1877,May Rainfall,https://drive.google.com/file/d/1ShVGwBtILrh1ZhMENuqhYS9BZBzv4DfH/view?usp=sharing,B,B06,,mapbox,shgis-kennethdean.3upo7cda,,
-1877,June Rainfall,https://drive.google.com/file/d/1er5ZaTsMbKnAoGrvM1xm_oRglqQO1HUQ/view?usp=sharing,B,B07,,mapbox,shgis-kennethdean.3s20g8tl,,
-1877,July Rainfall,https://drive.google.com/file/d/1jSXbXt9N_m4TPr_x3-yQTavGyAFsfbaK/view?usp=sharing,B,B08,,mapbox,shgis-kennethdean.bvd29306,,
-1877,August Rainfall,https://drive.google.com/file/d/1fwOiMm8MjsLOpez3b3PZQS-f4mSICb4H/view?usp=sharing,B,B09,,mapbox,shgis-kennethdean.9grliq8v,,
-1877,September Rainfall,https://drive.google.com/file/d/1dRHcop4LhOAyeqw7Am-4YIXQA27NCR6W/view?usp=sharing,B,B10,,mapbox,shgis-kennethdean.8mnfzi7p,,
-1877,October Rainfall,https://drive.google.com/file/d/1XV-p7xcYR63mvorQG44BZp0KG9VPSczy/view?usp=sharing,B,B11,,mapbox,shgis-kennethdean.61ltld3n,,
-1877,November Rainfall,https://drive.google.com/file/d/1pfG4Sv4Xz7kqEAfncI1DqKuVxMZDcFLF/view?usp=sharing,B,B12,,mapbox,shgis-kennethdean.0eoh4esk,,
-1877,December Rainfall,https://drive.google.com/file/d/1RyvYcHW6WqUtUmKaTH_p959qsRtCpt32/view?usp=sharing,B,B13,,mapbox,shgis-kennethdean.by7hb3ui,,
-1913,Map of Singapore Showing the Principal Residences and Places of Interest,https://drive.google.com/file/d/1U85VOifKW7ppoqbf_lMnHemx9sA9zGAj/view?usp=sharing,B,B38,,mapbox,shgis-kennethdean.B38,,
-1913,February Rainfall,https://drive.google.com/file/d/1QzYCQtl0V0d1a7OEs8uSl3XLyOG8flXY/view?usp=sharing,B,B15,,mapbox,shgis-kennethdean.7a0c7plo,,
-1913,March Rainfall,https://drive.google.com/file/d/1eq-qTHf6rLPjyOPr9nyTDCFYmyqHyboz/view?usp=sharing,B,B16,,mapbox,shgis-kennethdean.3tu5fs78,,
-1913,April Rainfall,https://drive.google.com/file/d/1PaUppXLE3G53haS3k6VmwlkjK8E_qPzR/view?usp=sharing,B,B17,,mapbox,shgis-kennethdean.aif2vj91,,
-1913,May Rainfall,https://drive.google.com/file/d/1Z0HZ9az9mNLY5cMSjLp5-6sig_igORtF/view?usp=sharing,B,B18,,mapbox,shgis-kennethdean.48bhoiv1,,
-1913,June Rainfall,https://drive.google.com/file/d/1cZl8AkFLCXZwWF7WTVgAnoI9cpR2ErUs/view?usp=sharing,B,B19,,mapbox,shgis-kennethdean.djq2jkz3,,
-1913,July Rainfall,https://drive.google.com/file/d/13ayVUtDxXJHSIGsliFataef0M-JoIKdt/view?usp=sharing,B,B20,,mapbox,shgis-kennethdean.2zqkqimj,,
-1913,August Rainfall,https://drive.google.com/file/d/1l2k66yqBYNyQW3FI68kWfzzu_qVxLxfl/view?usp=sharing,B,B21,,mapbox,shgis-kennethdean.d9rn6jry,,
-1913,September Rainfall,https://drive.google.com/file/d/1hy-cUlIirKGj6xC-7-Q60IT6CAG6c1Ag/view?usp=sharing,B,B22,,mapbox,shgis-kennethdean.06lixf2v,,
-1913,October Rainfall,https://drive.google.com/file/d/1nPfXQqum7owy73MgA7Ojk8sR0Xa8n_h_/view?usp=sharing,B,B23,,mapbox,shgis-kennethdean.d1yuinkg,,
-1913,November Rainfall,https://drive.google.com/file/d/1AH3xqy1YFZaaamgoGiGXyn4cJ1jZJABo/view?usp=sharing,B,B24,,mapbox,shgis-kennethdean.2xonqgdj,,
-1913,December Rainfall,https://drive.google.com/file/d/121QNlfa9iHGcQoT5cyuMINIkUEk-Po25/view?usp=sharing,B,B25,,mapbox,shgis-kennethdean.6n3sjil6,,
-1912,January Rainfall,https://drive.google.com/file/d/1tt4E56n7p0I7tXDBRvZQg8EnZN70tndR/view?usp=sharing,B,B26,,mapbox,shgis-kennethdean.aciz78fj,,
-1912,February Rainfall,https://drive.google.com/file/d/1KvxhlKKuAykFz6e58Dw2F0ZT8WSmrMVS/view?usp=sharing,B,B27,,mapbox,shgis-kennethdean.522qm8sd,,
-1912,March Rainfall,https://drive.google.com/file/d/1RLMrsGkLTkUuIn95DxOTpIbnwzYt7aH6/view?usp=sharing,B,B28,,mapbox,shgis-kennethdean.bsbsawhb,,
-1912,April Rainfall,https://drive.google.com/file/d/1EDnd539eOmmbBRv-ghWS2zAQQ56D99nP/view?usp=sharing,B,B29,,mapbox,shgis-kennethdean.1drj10fz,,
-1912,May Rainfall,https://drive.google.com/file/d/1R-eUfZHUk4u0jbpv8B95zWO8f1mE3Vnw/view?usp=sharing,B,B30,,mapbox,shgis-kennethdean.8a98gi3s,,
-1912,June Rainfall,https://drive.google.com/file/d/1B1BsTcqzUHPGfAIRyM3I-z7RF3ATB91_/view?usp=sharing,B,B31,,mapbox,shgis-kennethdean.30enb64r,,
-1912,July Rainfall,https://drive.google.com/file/d/1gqoXkJrNzrU-di3vb4kRb7da7olwnlH9/view?usp=sharing,B,B32,,mapbox,shgis-kennethdean.8fzj7fhg,,
-1912,August Rainfall,https://drive.google.com/file/d/1X8U6UPvbOmT8kpHP0CenkjpfMdwLom0_/view?usp=sharing,B,B33,,mapbox,shgis-kennethdean.0oie581z,,
-1912,September Rainfall,https://drive.google.com/file/d/1L9tgGX5AT75EIzVU5u0-dpr04ySSs7uL/view?usp=sharing,B,B34,,mapbox,shgis-kennethdean.553733uf,,
-1912,October Rainfall,https://drive.google.com/file/d/1KAHwYK--Sfnn9vWSv6LqrjlHdY4EzaoE/view?usp=sharing,B,B35,,mapbox,shgis-kennethdean.2spzmlfq,,
-1912,November Rainfall,https://drive.google.com/file/d/1MG3ZecHTiw2J8rmnQ0mhdhyR3CiwbCS2/view?usp=sharing,B,B36,,mapbox,shgis-kennethdean.07bztw07,,
-1912,December Rainfall,https://drive.google.com/file/d/12tLiawPtxozOxYxTu3ndPJKlicMNzZRq/view?usp=sharing,B,B37,,mapbox,shgis-kennethdean.0jiluzxs,,
-1950,Map of Singapore,https://drive.google.com/file/d/1kafAGUXzZEl1ovaKLkpaRXCYhzlzj3EP/view?usp=sharing,C,C01,,mapbox,shgis-kennethdean.1uya4p9x,,
-1951,Map of Singapore,https://drive.google.com/file/d/1lH9nSf8F4iYld2LPi2EYK8OXpr6CtkVd/view?usp=sharing,C,C02,,mapbox,shgis-kennethdean.9cealpf3,,
-1969,"Map of P. Tekong showing location of malaria cases and Anopheles maculatus breeding in the 1969 malaria outbreak, together with old and new oiling areas and other features",https://drive.google.com/file/d/1h5PWfNt-mBlaS3h5espzIFz4dfsXGNI_/view?usp=sharing,C,C03,,mapbox,shgis-kennethdean.0k7zbenw,,
-1974-5,"Geographical distribution of cases in relation to tidal influence and adult harbourages at Whampoa-Kallang area, 1974-5",https://drive.google.com/file/d/1zoxiW91oOduaC_hhvvYI6rts81qtgnlC/view?usp=sharing,C,C04,,mapbox,shgis-kennethdean.dg3mxn2w,,
-1976-82,"Geographical distribution of introduced malaria cases in Singapore, 1976 - 1982",https://drive.google.com/file/d/1LHgVlTnX5fh9ID6pmB-89lkyfr2a6ZHf/view?usp=sharing,C,C05,,mapbox,shgis-kennethdean.4ki72mgp,,
-,"Geographical distribution of malaria vectors in Singapore, 1976 - 1982",https://drive.google.com/file/d/1IQNw733zk4kS_XO7lq14PjmyBEsT-4xV/view?usp=sharing,C,C06,,mapbox,shgis-kennethdean.9muiu5o5,,
-1976,"Malaria outbreaks at Changi and East Coast/Chai Ghee, 1976",https://drive.google.com/file/d/10sFza9ZmtmlnWwBmm-7a-u9aiSNu0rgA/view?usp=sharing,C,C07,,mapbox,shgis-kennethdean.8u9jidi2,,
-1980,"Malaria Outbreak at Siak Kuan Road, Oct 1980",https://drive.google.com/file/d/1X-kecVVaOD09h42J7PNlXNN46ha8SkOc/view?usp=sharing,C,C08,,mapbox,shgis-kennethdean.2fkoni01,,
+﻿Year,Map Name,web address,Category,Code,status,Source,tileset_ID,comments,url,description
+1885,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1MckdOkGxhRzlzjL_HX53vfazjeGHbU4w/view?usp=sharing,A,A01,,mapbox,shgis-kennethdean.5cdw1m90,,,
+1898,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1NMaKHVhQ2lHHwtmQOVf2tmB3Gh0AndXC/view?usp=sharing,A,A02,,mapbox,shgis-kennethdean.1fqv8vl6,,,
+1911,Map of The Island of Singapore And Its Dependencies ,http://libmaps.nus.edu.sg/,A,A03,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1911/MapServer/tile/{z}/{y}/{x}/,
+1924,A04-A19 Merged,,A,A04-MERGED,,mapbox,shgis-kennethdean.A04Merged,,,
+1927,Singapore,https://drive.google.com/file/d/1pezcqWBZSsvmc2nyKRilasSA_6YaQglx/view?usp=sharing,A,A20,,mapbox,shgis-kennethdean.A20,,,
+1947,Malaya - Singapore and Johore Bahru,https://drive.google.com/file/d/1UJGEd1Qp0_MYs9VktnuGG7v59FbAyZyA/view?usp=sharing,A,A21,,mapbox,shgis-kennethdean.6wv50fjv,,,
+1975,Hydrogeologic Map of the Islands of Singapore,https://drive.google.com/file/d/1dXFOzT7FqW6BwW-lFdX8r-ymuMG8i_p4/view?usp=sharing,A,A23,,mapbox,shgis-kennethdean.A23,Geolocated but not yet uploaded,,
+1977,Soil Map of Republic of Singapore,https://drive.google.com/file/d/1FCRVe4v7nDXIzMfyPcbG_qx_ADb7by32/view?usp=sharing,A,A24,,mapbox,shgis-kennethdean.05bdd9c2,,,
+2006,A26-A31 Merged,,A,A26-Merged,,mapbox,shgis-kennethdean.A26-merged,,,
+2006,Geological Maps of Singapore Sheet 1: Lim Chu Kang,https://drive.google.com/file/d/1zgfM3P76E0GAIEdIJHkR892SOQUwgu5B/view?usp=sharing,A,A26,,mapbox,shgis-kennethdean.7e853aa0,,,
+2006,Geological Maps of Singapore Sheet 2: Tampines,https://drive.google.com/file/d/1dmscvSB6I3sIXipB6yTdcYEB3BN4nVs5/view?usp=sharing,A,A27,,mapbox,shgis-kennethdean.5amyuaqf,,,
+2006,Geological Maps of Singapore Sheet 3: Pulau Tekong,https://drive.google.com/file/d/1wFeRDioh4O0aFbmMuWIXNztYkKLRKmN2/view?usp=sharing,A,A28,,mapbox,shgis-kennethdean.53p5f8wg,,,
+2006,Geological Maps of Singapore Sheet 4: Jurong,https://drive.google.com/file/d/1aprgVKG1bthcf7SJcJIPxuiuJpAhYq1Z/view?usp=sharing,A,A29,,mapbox,shgis-kennethdean.cf6n7l6p,,,
+2006,Geological Maps of Singapore Sheet 5: Bedok,https://drive.google.com/file/d/1x0O1Kzf-oP5tEo2rbtgr--ibEiqNB_8q/view?usp=sharing,A,A30,,mapbox,shgis-kennethdean.cj080y9h,,,
+2006,Geological Maps of Singapore Sheet 6: Southern Islands,https://drive.google.com/file/d/10Ygw4aV6i7vLBE8BsS3IGmk2cFYX5wL1/view?usp=sharing,A,A31,,mapbox,shgis-kennethdean.2gt9hzl9,,,
+2006,Geological Maps of Singapore Sheet 7: Cross Sections,https://drive.google.com/file/d/15xpBFpUwsb2FhwRj6dvWDao0ji-yrwsi/view?usp=sharing,A,A32,,image,,,./img/A32.png,
+2008,Geological Maps of Singapore Sheet 8: Locality Map,https://drive.google.com/file/d/1PS3w0dkZWTOUeJ-RtxguArVZg_nGDDes/view?usp=sharing,A,A33,,image,,,./img/A33.png,
+1860,1860 maps,,B,B39,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1860/MapServer/tile/{z}/{y}/{x}/,
+1860,Meteorological Station,,B,B40,,geojson-points,,,./geojson/meteor_stations.json,"Layer B40 provides an overview of the location and names of meteorological stations in operation between the 1840s and 1880s, some of which have been used for the 1877 rainfall layers. Compiled by Grace Chong."
+1873,1873 Map,https://drive.google.com/file/d/19WhxBZZaEtD7QUvuU0GoifHrxxSSYMpo/view?pli=1,B,B01,,mapbox,shgis-kennethdean.B01,,,
+1877,January Rainfall,https://drive.google.com/file/d/1q9HClx7TG-pd1QLW2kMRgC6fYP8NsaPg/view?usp=sharing,B,B02,,mapbox,shgis-kennethdean.44ele1vc,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,February Rainfall,https://drive.google.com/file/d/1M5DWMHwwlYZREjj487eHYYn7XzKWAqsF/view?usp=sharing,B,B03,,mapbox,shgis-kennethdean.0vgh85fu,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,March Rainfall,https://drive.google.com/file/d/1ZIL356xgyR0x1HrhCEbFHZza1zizTE4s/view?usp=sharing,B,B04,,mapbox,shgis-kennethdean.5o0uk263,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,April Rainfall,https://drive.google.com/file/d/1eHMoNhk3G46dXDGi1VylsUT4TQEoJKHO/view?usp=sharing,B,B05,,mapbox,shgis-kennethdean.8505p6xy,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,May Rainfall,https://drive.google.com/file/d/1ShVGwBtILrh1ZhMENuqhYS9BZBzv4DfH/view?usp=sharing,B,B06,,mapbox,shgis-kennethdean.3upo7cda,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,June Rainfall,https://drive.google.com/file/d/1er5ZaTsMbKnAoGrvM1xm_oRglqQO1HUQ/view?usp=sharing,B,B07,,mapbox,shgis-kennethdean.3s20g8tl,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,July Rainfall,https://drive.google.com/file/d/1jSXbXt9N_m4TPr_x3-yQTavGyAFsfbaK/view?usp=sharing,B,B08,,mapbox,shgis-kennethdean.bvd29306,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,August Rainfall,https://drive.google.com/file/d/1fwOiMm8MjsLOpez3b3PZQS-f4mSICb4H/view?usp=sharing,B,B09,,mapbox,shgis-kennethdean.8b3io5si,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,September Rainfall,https://drive.google.com/file/d/1dRHcop4LhOAyeqw7Am-4YIXQA27NCR6W/view?usp=sharing,B,B10,,mapbox,shgis-kennethdean.8mnfzi7p,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,October Rainfall,https://drive.google.com/file/d/1XV-p7xcYR63mvorQG44BZp0KG9VPSczy/view?usp=sharing,B,B11,,mapbox,shgis-kennethdean.61ltld3n,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,November Rainfall,https://drive.google.com/file/d/1pfG4Sv4Xz7kqEAfncI1DqKuVxMZDcFLF/view?usp=sharing,B,B12,,mapbox,shgis-kennethdean.0mcrf1lk,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1877,December Rainfall,https://drive.google.com/file/d/1RyvYcHW6WqUtUmKaTH_p959qsRtCpt32/view?usp=sharing,B,B13,,mapbox,shgis-kennethdean.by7hb3ui,,,Layer B02 to B13 show rainfall in 1877 Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,Map of Singapore Showing the Principal Residences and Places of Interest,https://drive.google.com/file/d/1U85VOifKW7ppoqbf_lMnHemx9sA9zGAj/view?usp=sharing,B,B38,,mapbox,shgis-kennethdean.B38,,,
+1911,January Rainfall,,B,B14,,mapbox,shgis-kennethdean.004rc23k,,,"Layer B14 provides an overview of Singapore in 1913 and can be combined with the 1911 and 1912 rainfall layers, B15 to B26 and B26 to B37."
+1911,February Rainfall,https://drive.google.com/file/d/1QzYCQtl0V0d1a7OEs8uSl3XLyOG8flXY/view?usp=sharing,B,B15,,mapbox,shgis-kennethdean.7a0c7plo,,,"Layer B15 provides an overview of the location and names of meteorological stations in operation in the 1910s, which have been used for the 1911 and 1912 rainfall layers."
+1911,March Rainfall,https://drive.google.com/file/d/1eq-qTHf6rLPjyOPr9nyTDCFYmyqHyboz/view?usp=sharing,B,B16,,mapbox,shgis-kennethdean.3tu5fs78,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,April Rainfall,https://drive.google.com/file/d/1PaUppXLE3G53haS3k6VmwlkjK8E_qPzR/view?usp=sharing,B,B17,,mapbox,shgis-kennethdean.aif2vj91,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,May Rainfall,https://drive.google.com/file/d/1Z0HZ9az9mNLY5cMSjLp5-6sig_igORtF/view?usp=sharing,B,B18,,mapbox,shgis-kennethdean.48bhoiv1,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,June Rainfall,https://drive.google.com/file/d/1cZl8AkFLCXZwWF7WTVgAnoI9cpR2ErUs/view?usp=sharing,B,B19,,mapbox,shgis-kennethdean.djq2jkz3,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,July Rainfall,https://drive.google.com/file/d/13ayVUtDxXJHSIGsliFataef0M-JoIKdt/view?usp=sharing,B,B20,,mapbox,shgis-kennethdean.2zqkqimj,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,August Rainfall,https://drive.google.com/file/d/1l2k66yqBYNyQW3FI68kWfzzu_qVxLxfl/view?usp=sharing,B,B21,,mapbox,shgis-kennethdean.d9rn6jry,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,September Rainfall,https://drive.google.com/file/d/1hy-cUlIirKGj6xC-7-Q60IT6CAG6c1Ag/view?usp=sharing,B,B22,,mapbox,shgis-kennethdean.06lixf2v,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,October Rainfall,https://drive.google.com/file/d/1nPfXQqum7owy73MgA7Ojk8sR0Xa8n_h_/view?usp=sharing,B,B23,,mapbox,shgis-kennethdean.d1yuinkg,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,November Rainfall,https://drive.google.com/file/d/1AH3xqy1YFZaaamgoGiGXyn4cJ1jZJABo/view?usp=sharing,B,B24,,mapbox,shgis-kennethdean.2xonqgdj,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1911,December Rainfall,https://drive.google.com/file/d/121QNlfa9iHGcQoT5cyuMINIkUEk-Po25/view?usp=sharing,B,B25,,mapbox,shgis-kennethdean.6n3sjil6,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1912,January Rainfall,https://drive.google.com/file/d/1tt4E56n7p0I7tXDBRvZQg8EnZN70tndR/view?usp=sharing,B,B26,,mapbox,shgis-kennethdean.aciz78fj,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1912,February Rainfall,https://drive.google.com/file/d/1KvxhlKKuAykFz6e58Dw2F0ZT8WSmrMVS/view?usp=sharing,B,B27,,mapbox,shgis-kennethdean.522qm8sd,,,Layer B16 to B27 show rainfall in 1911. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+1912,March Rainfall,https://drive.google.com/file/d/1RLMrsGkLTkUuIn95DxOTpIbnwzYt7aH6/view?usp=sharing,B,B28,,mapbox,shgis-kennethdean.bsbsawhb,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,April Rainfall,https://drive.google.com/file/d/1EDnd539eOmmbBRv-ghWS2zAQQ56D99nP/view?usp=sharing,B,B29,,mapbox,shgis-kennethdean.1drj10fz,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,May Rainfall,https://drive.google.com/file/d/1R-eUfZHUk4u0jbpv8B95zWO8f1mE3Vnw/view?usp=sharing,B,B30,,mapbox,shgis-kennethdean.8a98gi3s,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,June Rainfall,https://drive.google.com/file/d/1B1BsTcqzUHPGfAIRyM3I-z7RF3ATB91_/view?usp=sharing,B,B31,,mapbox,shgis-kennethdean.30enb64r,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,July Rainfall,https://drive.google.com/file/d/1gqoXkJrNzrU-di3vb4kRb7da7olwnlH9/view?usp=sharing,B,B32,,mapbox,shgis-kennethdean.8fzj7fhg,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,August Rainfall,https://drive.google.com/file/d/1X8U6UPvbOmT8kpHP0CenkjpfMdwLom0_/view?usp=sharing,B,B33,,mapbox,shgis-kennethdean.0oie581z,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,September Rainfall,https://drive.google.com/file/d/1L9tgGX5AT75EIzVU5u0-dpr04ySSs7uL/view?usp=sharing,B,B34,,mapbox,shgis-kennethdean.553733uf,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,October Rainfall,https://drive.google.com/file/d/1KAHwYK--Sfnn9vWSv6LqrjlHdY4EzaoE/view?usp=sharing,B,B35,,mapbox,shgis-kennethdean.2spzmlfq,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,November Rainfall,https://drive.google.com/file/d/1MG3ZecHTiw2J8rmnQ0mhdhyR3CiwbCS2/view?usp=sharing,B,B36,,mapbox,shgis-kennethdean.07bztw07,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1912,December Rainfall,https://drive.google.com/file/d/12tLiawPtxozOxYxTu3ndPJKlicMNzZRq/view?usp=sharing,B,B37,,mapbox,shgis-kennethdean.0jiluzxs,,,"Layer B28 to B39 show rainfall in 1912. Green dots mark meteorological stations (please combine with layer B00 or look up the station name there).
+"
+1950,Map of Singapore,https://drive.google.com/file/d/1kafAGUXzZEl1ovaKLkpaRXCYhzlzj3EP/view?usp=sharing,C,C01,,mapbox,shgis-kennethdean.1uya4p9x,,,
+1951,Map of Singapore,https://drive.google.com/file/d/1lH9nSf8F4iYld2LPi2EYK8OXpr6CtkVd/view?usp=sharing,C,C02,,mapbox,shgis-kennethdean.9cealpf3,,,
+1969,"Map of P. Tekong showing location of malaria cases and Anopheles maculatus breeding in the 1969 malaria outbreak, together with old and new oiling areas and other features",https://drive.google.com/file/d/1h5PWfNt-mBlaS3h5espzIFz4dfsXGNI_/view?usp=sharing,C,C03,,mapbox,shgis-kennethdean.0k7zbenw,,,
+1974-5,"Geographical distribution of cases in relation to tidal influence and adult harbourages at Whampoa-Kallang area, 1974-5",https://drive.google.com/file/d/1zoxiW91oOduaC_hhvvYI6rts81qtgnlC/view?usp=sharing,C,C04,,mapbox,shgis-kennethdean.dg3mxn2w,,,
+1976-82,"Geographical distribution of introduced malaria cases in Singapore, 1976 - 1982",https://drive.google.com/file/d/1LHgVlTnX5fh9ID6pmB-89lkyfr2a6ZHf/view?usp=sharing,C,C05,,mapbox,shgis-kennethdean.4ki72mgp,,,
+,"Geographical distribution of malaria vectors in Singapore, 1976 - 1982",https://drive.google.com/file/d/1IQNw733zk4kS_XO7lq14PjmyBEsT-4xV/view?usp=sharing,C,C06,,mapbox,shgis-kennethdean.9muiu5o5,,,
+1976,"Malaria outbreaks at Changi and East Coast/Chai Ghee, 1976",https://drive.google.com/file/d/10sFza9ZmtmlnWwBmm-7a-u9aiSNu0rgA/view?usp=sharing,C,C07,,mapbox,shgis-kennethdean.8u9jidi2,,,
+1980,"Malaria Outbreak at Siak Kuan Road, Oct 1980",https://drive.google.com/file/d/1X-kecVVaOD09h42J7PNlXNN46ha8SkOc/view?usp=sharing,C,C08,,mapbox,shgis-kennethdean.2fkoni01,,,

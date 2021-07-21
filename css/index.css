@@ -44,6 +44,13 @@
 	border: solid;
 }
 
+.subtitle {
+	font-style: italic;
+	font-size: 10px;
+	color: #a0a0a0;
+	margin-bottom: 0;
+}
+
 .loader,
 .loader:before,
 .loader:after {

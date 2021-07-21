@@ -163,13 +163,13 @@ h5 {
 	background-color: rgba(216, 157, 106, 1)
 }
 
-#openseadragon1 {
+.OSD {
 	width: 80vw;
 	height: 70vw;
 	max-width: 1000px;
 	margin: 0 auto;
 	border-style: solid;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 .figure {

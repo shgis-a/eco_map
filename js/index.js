@@ -15,7 +15,7 @@ function populateSidebar(data) {
 			}
 
 			if (links[line["Code"]] == undefined) {
-				var html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ": " + line["Map Name"] + year + "</span><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
+				var html_string = "<li class='list-group-item " + line["Code"] + "_li'><input type='checkbox' id='" + line["Code"] + "'><span id='" + line["Code"] + "_text'>" + line["Code"] + ": " + line["Map Name"] + year + "</span><br><p class='subtitle'>" + line["description"] + "</p><br><input type='range' class='form-range' id='" + line["Code"] + "'></li>"
 				$(directory).append(html_string)
 				link(line["Code"])
 			} else {
@@ -29,8 +29,6 @@ function populateSidebar(data) {
 						content: "<div class='OSD' id='" + OSDid + "'></div>",
 						elementClass: OSDid
 					});
-
-					console.log(links[line["Code"]])
 
 					var viewer = OpenSeadragon({
 						id: OSDid,
@@ -179,7 +177,22 @@ $(document).ready(function () {
 								"text-halo-width": 1,
 								"text-halo-blur": 1
 							}
+						})
+
+						map.on('click', code, function (e) {
+							var coordinates = e.features[0].geometry.coordinates.slice();
+							var description = e.features[0].properties.name
+
+							while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+								coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+							}
+
+							new mapboxgl.Popup()
+								.setLngLat(coordinates)
+								.setHTML(description)
+								.addTo(map);
 						});
+
 					} else if (entry["Source"] == "image") {
 						links[code] = entry["url"];
 					}
@@ -192,6 +205,14 @@ $(document).ready(function () {
 
 					if (this.checked) {
 						map.setLayoutProperty(id, 'visibility', 'visible');
+						if (id == "B40") {
+							var popup = new mapboxgl.Popup({
+									closeOnClick: false
+								})
+								.setLngLat([103.833879492, 1.33191092114564])
+								.setHTML('<h2>Click on the station numbers to show their names</h2>')
+								.addTo(map);
+						}
 					} else {
 						map.setLayoutProperty(id, 'visibility', 'none');
 					}
