@@ -69,9 +69,6 @@ $(document).ready(function () {
 
 		new ScrollMagic.Scene({})
 			.setPin("#map")
-			.addIndicators({
-				name: "map_cont"
-			}) // add indicators (requires plugin)
 			.addTo(controller);
 
 		new ScrollMagic.Scene({
@@ -96,9 +93,6 @@ $(document).ready(function () {
 					center: [103.8198, 1.3521]
 				})
 			})
-			.addIndicators({
-				name: "s1"
-			}) // add indicators (requires plugin)
 			.addTo(controller);
 
 		new ScrollMagic.Scene({
@@ -109,7 +103,7 @@ $(document).ready(function () {
 			.on("enter", function (e) {
 
 				$("<img class='duo' src='./img/s2_house.png'/>").appendTo(".images").hide().fadeIn(300);
-				$("<figcaption>(ABOVE) Part of house where 5 malaria cases were detected with a rubber plantation in the background, where Anopheles maculatus (BELOW) was found breeding.</figcaption>").appendTo(".images").hide().fadeIn(300);
+				$("<figcaption>(ABOVE) Part of house where 5 malaria cases were detected with a rubber plantation in the background, where Anopheles sundaicus (BELOW) was found breeding.</figcaption>").appendTo(".images").hide().fadeIn(300);
 				$("<div class='duo gallery'><img src='./img/An.sundaicus2.jpeg'/><img src='./img/An.sundaicus1.jpeg'/><img src='./img/An.maculatus2.jpeg'/><img src='./img/An.maculatus.jpeg'/></div>").appendTo(".images").hide().fadeIn(300);
 			})
 			.on("leave", function (e) {
@@ -117,9 +111,6 @@ $(document).ready(function () {
 					$(this).empty().show();
 				});
 			})
-			.addIndicators({
-				name: "s2"
-			}) // add indicators (requires plugin)
 			.addTo(controller);
 
 		new ScrollMagic.Scene({
@@ -148,9 +139,6 @@ $(document).ready(function () {
 					'maxzoom': 22
 				});
 			})
-			.addIndicators({
-				name: "s3"
-			}) // add indicators (requires plugin)
 			.addTo(controller)
 
 		new ScrollMagic.Scene({
@@ -177,9 +165,6 @@ $(document).ready(function () {
 					'maxzoom': 22
 				});
 			})
-			.addIndicators({
-				name: "s4"
-			}) // add indicators (requires plugin)
 			.addTo(controller)
 
 		new ScrollMagic.Scene({
@@ -208,9 +193,6 @@ $(document).ready(function () {
 					'maxzoom': 22
 				});
 			})
-			.addIndicators({
-				name: "s5"
-			}) // add indicators (requires plugin)
 			.addTo(controller)
 
 		new ScrollMagic.Scene({
@@ -239,9 +221,6 @@ $(document).ready(function () {
 				});
 				map.removeLayer('s6')
 			})
-			.addIndicators({
-				name: "s6"
-			}) // add indicators (requires plugin)
 			.addTo(controller)
 
 		new ScrollMagic.Scene({
@@ -258,9 +237,6 @@ $(document).ready(function () {
 					$(this).empty().show();
 				});
 			})
-			.addIndicators({
-				name: "s7"
-			}) // add indicators (requires plugin)
 			.addTo(controller);
 
 		new ScrollMagic.Scene({
@@ -289,9 +265,6 @@ $(document).ready(function () {
 				});
 				map.removeLayer('s8')
 			})
-			.addIndicators({
-				name: "s8"
-			}) // add indicators (requires plugin)
 			.addTo(controller)
 
 		new ScrollMagic.Scene({
@@ -308,9 +281,6 @@ $(document).ready(function () {
 					$(this).empty().show();
 				});
 			})
-			.addIndicators({
-				name: "s9"
-			}) // add indicators (requires plugin)
 			.addTo(controller);
 	})
 

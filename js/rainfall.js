@@ -91,7 +91,6 @@ new ScrollMagic.Scene({
 		})
 		$("#s2b").toggleClass("active")
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 new ScrollMagic.Scene({
@@ -105,7 +104,6 @@ new ScrollMagic.Scene({
 		$("#ckjs4728a6vc319t4ml6d9eqv").click()
 		$("#s2c").toggleClass("active")
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 // markers
@@ -158,7 +156,6 @@ new ScrollMagic.Scene({
 		$("#s2d").toggleClass("active")
 
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 new ScrollMagic.Scene({
@@ -175,7 +172,6 @@ new ScrollMagic.Scene({
 		marker1.togglePopup()
 		marker2.togglePopup()
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 new ScrollMagic.Scene({
@@ -188,7 +184,6 @@ new ScrollMagic.Scene({
 		marker1.togglePopup()
 		marker2.togglePopup()
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 new ScrollMagic.Scene({
@@ -204,7 +199,6 @@ new ScrollMagic.Scene({
 		$("#ckol9hfdg34hr18plw28zxjeb").click();
 		map.fitBounds([[103.845, 1.302], [103.875, 1.31]])
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 new ScrollMagic.Scene({
@@ -256,7 +250,6 @@ new ScrollMagic.Scene({
 		marker1.addTo(map)
 		marker2.addTo(map)
 	})
-	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 
 var viewer = OpenSeadragon({
