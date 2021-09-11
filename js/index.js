@@ -169,7 +169,9 @@ $(document).ready(function () {
 							'layout': {
 								'text-field': ['get', 'id'],
 								'text-variable-anchor': ['center'],
-								'text-justify': 'auto'
+								'text-justify': 'auto',
+								"icon-allow-overlap": true,
+								"text-allow-overlap": true
 							},
 							'paint': {
 								"text-color": "#dddddd",
