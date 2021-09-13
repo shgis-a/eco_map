@@ -237,8 +237,10 @@ new ScrollMagic.Scene({
 			'source': 'meteor-source',
 			'layout': {
 				'text-field': ['get', 'id'],
-				'text-variable-anchor': ['center'],
-				'text-justify': 'auto'
+				'text-variable-anchor': 'auto',
+				'text-justify': 'auto',
+				"text-allow-overlap": true,
+				"text-variable-anchor": ["center", "left", "right"]
 			}
 		});
 	}).on("leave", function (e) {
