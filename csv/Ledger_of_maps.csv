@@ -1,13 +1,43 @@
 ﻿Year,Map Name,web address,Category,Code,status,Source,tileset_ID,comments,url,description
-1885,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1MckdOkGxhRzlzjL_HX53vfazjeGHbU4w/view?usp=sharing,A,A01,,mapbox,shgis-kennethdean.5cdw1m90,,,
-1898,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1NMaKHVhQ2lHHwtmQOVf2tmB3Gh0AndXC/view?usp=sharing,A,A02,,mapbox,shgis-kennethdean.1fqv8vl6,,,
-1911,Map of The Island of Singapore And Its Dependencies ,http://libmaps.nus.edu.sg/,A,A03,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1911/MapServer/tile/{z}/{y}/{x}/,
-1924,A04-A19 Merged,,A,A04-MERGED,,mapbox,shgis-kennethdean.merged,,,
-1927,Singapore,https://drive.google.com/file/d/1pezcqWBZSsvmc2nyKRilasSA_6YaQglx/view?usp=sharing,A,A20,,mapbox,shgis-kennethdean.A20,,,
-1947,Malaya - Singapore and Johore Bahru,https://drive.google.com/file/d/1UJGEd1Qp0_MYs9VktnuGG7v59FbAyZyA/view?usp=sharing,A,A21,,mapbox,shgis-kennethdean.6wv50fjv,,,
-1975,Hydrogeologic Map of the Islands of Singapore,https://drive.google.com/file/d/1dXFOzT7FqW6BwW-lFdX8r-ymuMG8i_p4/view?usp=sharing,A,A23,,mapbox,shgis-kennethdean.A23,Geolocated but not yet uploaded,,
-1977,Soil Map of Republic of Singapore,https://drive.google.com/file/d/1FCRVe4v7nDXIzMfyPcbG_qx_ADb7by32/view?usp=sharing,A,A24,,mapbox,shgis-kennethdean.05bdd9c2,,,
-2006,A26-A31 Merged,,A,A26-Merged,,mapbox,shgis-kennethdean.A26-merged,,,
+1849,Thomson Town Map,https://drive.google.com/file/d/1u67wuJPiN_S6XH8cWh6tLMOfVqqwfKqz/view?usp=sharing ,A,A34,,mapbox,shgis-kennethdean.A34,,,"This is a very early map of Singapore. It maps part of the Island of Singapore comprising the town and districts, surveyed into allotments in years 1842 to 1845."
+1852,"Map of Singapore Island, And Its Dependencies",https://drive.google.com/file/d/1_0DcYbV4DU4BLQOSUfKOw1QvNok9WyBn/view?usp=sharing,A,A35,,mapbox,shgis-kennethdean.A35,,,This is another very early map of Singapore. It clearly marks different land use types and cover.
+1868,Gambier plantation map of Singapore Island,https://drive.google.com/file/d/1K9u15umo8qF_JflHGNnMUweTHS7yx6yZ/view?usp=sharing ,A,A36,,mapbox,shgis-kennethdean.1e41j7iu,,,This is another very early map of Singapore. It shows the expansion of gambier plantations.
+1885,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1MckdOkGxhRzlzjL_HX53vfazjeGHbU4w/view?usp=sharing,A,A01,,mapbox,shgis-kennethdean.5cdw1m90,,,"<p>This layer illustrates:</p>
+<ul>
+<li>State of forest reserves when Nathaniel Cantley was Superintendent of the Singapore Botanic Gardens</li>
+<li>First map showing the forest reserves after Cantley’s report in 1883 proposing their creation (see: “Map Of The Island Of Singapore. </li>
+<li>Annexure To Report On The Forests Of The Straits Settlements” (1882))
+Track changes in the forest reserve demarcation to 1898 (A02)&quot;</li>
+</ul>"
+1898,Map of The Island of Singapore And Its Dependencies,https://drive.google.com/file/d/1NMaKHVhQ2lHHwtmQOVf2tmB3Gh0AndXC/view?usp=sharing,A,A02,,mapbox,shgis-kennethdean.1fqv8vl6,,,"<p>This layer illustrates:</p>
+<ul>
+<li>State of forest reserves when Henry Ridley was Director of the Singapore Botanic Gardens</li>
+<li>Some expansion since Cantley (A01)</li>
+<li>First map that shows the forest areas in green</li>
+</ul>"
+1911,Map of The Island of Singapore And Its Dependencies ,http://libmaps.nus.edu.sg/,A,A03,,libmap,,,https://libmaps.nus.edu.sg/gis/rest/services/Sing_Hist_Maps/1911/MapServer/tile/{z}/{y}/{x}/,"<p>This layer illustrates:</p>
+<ul>
+<li>Track changes in the forest reserve demarcation to 1927 (A20)</li>
+</ul>"
+1924,A04-A19 Merged,,A,A04-MERGED,,mapbox,shgis-kennethdean.merged-2,,,"<p>This layer illustrates:</p>
+<ul>
+<li>Swamp areas</li>
+<li>Topographical contour lines
+This 16-sheet map series (here merged into one layer) is the best topographical map series to be produced of Singapore and all the off-shore islands during its time. The 1927 “Green” map (A20) was based on this map.</li>
+</ul>"
+1927,Singapore,https://drive.google.com/file/d/1pezcqWBZSsvmc2nyKRilasSA_6YaQglx/view?usp=sharing,A,A20,,mapbox,shgis-kennethdean.A20,,,"This layer based on the “Green” map of Singapore illustrates:
+- State of forest reserves when Eric Holttum was Director of the Singapore Botanic Gardens
+- Some degazettement since Ridley (A02)
+- Agricultural areas"
+1947,Malaya - Singapore and Johore Bahru,https://drive.google.com/file/d/1UJGEd1Qp0_MYs9VktnuGG7v59FbAyZyA/view?usp=sharing,A,A21,,mapbox,shgis-kennethdean.6wv50fjv,,,"This map shows food crop growing areas in bright Yellow. During the immediate post-WW2 years, food was scarce and local food production was encouraged by the authorities. Note that the yellow food crop areas sometimes overlap with economic crop growing areas such as coconut or rubber plantations.
+
+It therefore illustrates:
+- Cultivated areas
+- Differentiation between open vegetable farms and plantations
+Impact of postwar food demand and increased food production on shrinking forest reserves"
+1975,Hydrogeologic Map of the Islands of Singapore,https://drive.google.com/file/d/1dXFOzT7FqW6BwW-lFdX8r-ymuMG8i_p4/view?usp=sharing,A,A23,,mapbox,shgis-kennethdean.A23,Geolocated but not yet uploaded,,A rare one-off hydrological map of Singapore
+1977,Soil Map of Republic of Singapore,https://drive.google.com/file/d/1FCRVe4v7nDXIzMfyPcbG_qx_ADb7by32/view?usp=sharing,A,A24,,mapbox,shgis-kennethdean.05bdd9c2,,,This layer is based on the only soil map of Singapore produced so far. It illustrates the distribution of all the different soil types (coloured with two-letter codes)
+2006,A26-A31 Merged,,A,A26-Merged,,mapbox,shgis-kennethdean.A26-merged,,,This merged layer is based on the 2nd edition of the Geology Map of Singapore
 2006,Geological Maps of Singapore Sheet 1: Lim Chu Kang,https://drive.google.com/file/d/1zgfM3P76E0GAIEdIJHkR892SOQUwgu5B/view?usp=sharing,A,A26,,mapbox,shgis-kennethdean.7e853aa0,,,
 2006,Geological Maps of Singapore Sheet 2: Tampines,https://drive.google.com/file/d/1dmscvSB6I3sIXipB6yTdcYEB3BN4nVs5/view?usp=sharing,A,A27,,mapbox,shgis-kennethdean.5amyuaqf,,,
 2006,Geological Maps of Singapore Sheet 3: Pulau Tekong,https://drive.google.com/file/d/1wFeRDioh4O0aFbmMuWIXNztYkKLRKmN2/view?usp=sharing,A,A28,,mapbox,shgis-kennethdean.53p5f8wg,,,
@@ -31,7 +61,7 @@
 1877,October Rainfall,https://drive.google.com/file/d/1XV-p7xcYR63mvorQG44BZp0KG9VPSczy/view?usp=sharing,B,B11,,mapbox,shgis-kennethdean.61ltld3n,,,Layer B02 to B13 show rainfall in 1877. Green dots mark meteorological stations (please combine with layers B39 and B40  or look up the station names there).
 1877,November Rainfall,https://drive.google.com/file/d/1pfG4Sv4Xz7kqEAfncI1DqKuVxMZDcFLF/view?usp=sharing,B,B12,,mapbox,shgis-kennethdean.0mcrf1lk,,,Layer B02 to B13 show rainfall in 1877. Green dots mark meteorological stations (please combine with layers B39 and B40  or look up the station names there).
 1877,December Rainfall,https://drive.google.com/file/d/1RyvYcHW6WqUtUmKaTH_p959qsRtCpt32/view?usp=sharing,B,B13,,mapbox,shgis-kennethdean.by7hb3ui,,,Layer B02 to B13 show rainfall in 1877. Green dots mark meteorological stations (please combine with layers B39 and B40  or look up the station names there).
-1911,Map of Singapore Showing the Principal Residences and Places of Interest,https://drive.google.com/file/d/1U85VOifKW7ppoqbf_lMnHemx9sA9zGAj/view?usp=sharing,B,B38,,mapbox,shgis-kennethdean.B38,,,
+1913,Map of Singapore Showing the Principal Residences and Places of Interest (1913),https://drive.google.com/file/d/1U85VOifKW7ppoqbf_lMnHemx9sA9zGAj/view?usp=sharing,B,B38,,mapbox,shgis-kennethdean.B38,,,
 1911,January Rainfall,,B,B14,,mapbox,shgis-kennethdean.6d7ehut2,,,"Layers B14 to B25 show rainfall in 1911. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (=2,54 cm)."
 1911,February Rainfall,https://drive.google.com/file/d/1QzYCQtl0V0d1a7OEs8uSl3XLyOG8flXY/view?usp=sharing,B,B15,,mapbox,shgis-kennethdean.6kv47oyq,,,"Layers B14 to B25 show rainfall in 1911. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (=2,54 cm)."
 1911,March Rainfall,https://drive.google.com/file/d/1eq-qTHf6rLPjyOPr9nyTDCFYmyqHyboz/view?usp=sharing,B,B16,,mapbox,shgis-kennethdean.3lb94s16,,,"Layers B14 to B25 show rainfall in 1911. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (=2,54 cm)."
@@ -56,8 +86,10 @@
 1912,October Rainfall,https://drive.google.com/file/d/1KAHwYK--Sfnn9vWSv6LqrjlHdY4EzaoE/view?usp=sharing,B,B35,,mapbox,shgis-kennethdean.6azs46za,,,"Layers B26 to B37 show rainfall in 1912. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (2,54 cm)."
 1912,November Rainfall,https://drive.google.com/file/d/1MG3ZecHTiw2J8rmnQ0mhdhyR3CiwbCS2/view?usp=sharing,B,B36,,mapbox,shgis-kennethdean.9revyust,,,"Layers B26 to B37 show rainfall in 1912. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (2,54 cm)."
 1912,December Rainfall,https://drive.google.com/file/d/12tLiawPtxozOxYxTu3ndPJKlicMNzZRq/view?usp=sharing,B,B37,,mapbox,shgis-kennethdean.44sv46nl,,,"Layers B26 to B37 show rainfall in 1912. Red dots mark meteorological stations (please combine with layers B40 and B38 or look up the station names there). Rainfall amounts are given in inches (2,54 cm)."
-1950,Map of Singapore,https://drive.google.com/file/d/1kafAGUXzZEl1ovaKLkpaRXCYhzlzj3EP/view?usp=sharing,C,C01,,mapbox,shgis-kennethdean.1uya4p9x,,,
-1951,Map of Singapore,https://drive.google.com/file/d/1lH9nSf8F4iYld2LPi2EYK8OXpr6CtkVd/view?usp=sharing,C,C02,,mapbox,shgis-kennethdean.9cealpf3,,,
+1954,Singapore and Johore Bahru – Flood Map December 1954,https://drive.google.com/file/d/1crLov5ZSqML-VeDsOtIVP8Xq7HFO0dx6/view?usp=sharing,B,B41,,mapbox,shgis-kennethdean.B39,,,This is one of two known examples of special project maps on major floods in Singapore.
+1976,Singapore – Flood Map December,https://drive.google.com/file/d/1LYeblYN-8Eng3lapQX8cWM4Xilx4b3GO/view?usp=sharing,B,B42,,mapbox,shgis-kennethdean.B40,,,This is one of two known examples of special project maps on major floods in Singapore.
+1950,Map of Singapore,https://drive.google.com/file/d/1kafAGUXzZEl1ovaKLkpaRXCYhzlzj3EP/view?usp=sharing,C,C01,,mapbox,shgis-kennethdean.1uya4p9x,,,This rare epidemiological map illustrates anti-malaria works (such as anti-mosquito oiling) and locations of hospitals
+1951,Map of Singapore,https://drive.google.com/file/d/1lH9nSf8F4iYld2LPi2EYK8OXpr6CtkVd/view?usp=sharing,C,C02,,mapbox,shgis-kennethdean.9cealpf3,,,This rare epidemiological map illustrates anti-malaria works (such as anti-mosquito oiling) and locations of hospitals
 1969,"Map of P. Tekong showing location of malaria cases and Anopheles maculatus breeding in the 1969 malaria outbreak, together with old and new oiling areas and other features",https://drive.google.com/file/d/1h5PWfNt-mBlaS3h5espzIFz4dfsXGNI_/view?usp=sharing,C,C03,,mapbox,shgis-kennethdean.0k7zbenw,,,
 1974-5,"Geographical distribution of cases in relation to tidal influence and adult harbourages at Whampoa-Kallang area, 1974-5",https://drive.google.com/file/d/1zoxiW91oOduaC_hhvvYI6rts81qtgnlC/view?usp=sharing,C,C04,,mapbox,shgis-kennethdean.dg3mxn2w,,,
 1976-82,"Geographical distribution of introduced malaria cases in Singapore, 1976 - 1982",https://drive.google.com/file/d/1LHgVlTnX5fh9ID6pmB-89lkyfr2a6ZHf/view?usp=sharing,C,C05,,mapbox,shgis-kennethdean.4ki72mgp,,,
